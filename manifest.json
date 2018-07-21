@@ -1,0 +1,13 @@
+{
+  "name": "Make Netflix less bad.",
+  "description": "Mutes the audio from videos that automatically play on /browse.",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
