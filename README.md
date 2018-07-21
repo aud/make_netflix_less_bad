@@ -8,6 +8,6 @@ Commands:
 
 To load as an extension:
   - Clone the repo.
-  - Run `yarn build`.
+  - Run `yarn && yarn build`.
   - Visit chrome://extensions, enable developer mode.
   - Load unpacked extension, choosing /build as the extension directory.
