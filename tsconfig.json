@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "src/**/*.test.ts"
+  ]
+}

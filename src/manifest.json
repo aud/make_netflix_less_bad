@@ -7,7 +7,7 @@
     "webNavigation"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.bundle.js"]
   },
   "manifest_version": 2
 }
