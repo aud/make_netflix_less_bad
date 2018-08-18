@@ -1,6 +1,5 @@
 import MuteHandler from '../chrome/mute-handler'
 import {
-  wildcardFilter,
   browsePathFilter,
   watchPathFilter
 } from '../chrome/path-filters'
@@ -9,7 +8,7 @@ import {
 // pageload, we mute immediately.
 chrome.webNavigation.onCompleted.addListener(evt => {
   new MuteHandler(evt.tabId).mute()
-}, wildcardFilter)
+}, browsePathFilter)
 
 // Mute when path matches `/browse`.
 chrome.webNavigation.onHistoryStateUpdated.addListener(evt => {

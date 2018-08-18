@@ -7,7 +7,12 @@
     "webNavigation"
   ],
   "background": {
-    "scripts": ["background.bundle.js"]
+    "scripts": ["background.bundle.js"],
+    "persistent": true
   },
+  "content_scripts": [{
+    "js": ["player.bundle.js"],
+    "matches": ["<all_urls>"]
+  }],
   "manifest_version": 2
 }
